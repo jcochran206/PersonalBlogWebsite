@@ -1,0 +1,142 @@
+/* general style */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  opacity: 0.75;
+  color: #ffffff;
+}
+
+a:hover{
+  opacity: 1;
+}
+
+a.btn {
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  background-color: #3772ff;
+  opacity: 1;
+}
+
+html {
+  font: normal 16px sans-serif;
+  color: #fff;
+}
+
+.container {
+  max-width: 900px;
+   background-color: #fff;
+   margin: 0 auto;
+   padding: 0 60px;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-areas:
+     "header header header"
+     "main main sidebar"
+     "footer footer footer";
+   grid-gap: 10px;
+}
+
+nav {
+  list-style: none;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 80px;
+}
+
+/*header section*/
+header {
+  display: grid;
+  grid-area: "header";
+  padding: 20px 0;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  background-color: #555;
+}
+
+header h2{
+  font-family: Roboto, sans-serif;
+  justify-self: start;
+}
+
+header nav{
+  justify-self: end;
+}
+
+header nav li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 15px;
+}
+
+/* hero section */
+.hero {
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  min-height: 30vh;
+}
+
+.hero .background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  z-index: -1;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('img/macbook1.jpg');
+  background-color: #fdca40;
+}
+.hero h1 {
+  font: bold 60px "Open Sans", sans-serif;
+  margin-bottom: 10px;
+}
+
+.hero h3 {
+  font: normal 28px "Open Sans", sans-serif;
+  margin-bottom: 20px;
+}
+
+.hero a.btn{
+  padding: 20px 40px;
+}
+
+
+/* main */
+.main {
+  grid-area: "main" ;
+  background-color: yellow;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+
+
+/* sidebar */
+
+.sidebar {
+  grid-area: "sidebar";
+  background-color: blue;
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
+/* footer */
+
+footer {
+  background-color: grey;
+  grid-area: "footer";
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
