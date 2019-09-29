@@ -2,62 +2,96 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title> Bloggers Inc </title>
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <title> Jonathan Cochran | Web Developer </title>
+    <link rel="stylesheet" href="css/topo.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
-    <div class="container">
+
       <!--header section-->
       <header>
-        <h2><a href="#">Bloogers Inc.</a></h2>
+        <div class="logo">
+          <h1><a href="#">Bloggers Inc.</a></h1>
+        </div>
         <nav>
-          <li><a href="#">Home</a></li>
+          <li><a href="#" class="active">Home</a></li>
           <li><a href="#">About</a></li>
           <li><a href="#">Post</a></li>
         </nav>
       </header>
 
       <section class="hero">
+        <div class="background-image"></div>
         <div class="hero-content">
-          <h1>Our Blog</h1>
-          <h3>relevent news for you around the world</h3>
+          <h1>Jon's Web Blog</h1>
+          <h2>My passion for web and mobile development</h2>
+          <br>
           <a href="#" class="btn"> Subscribe </a>
         </div>
       </section>
-      <!--Main content-->
-      <section class="main">
-        <div class="content-block-info">
-          <h3>View Grid Help</h3>
-          <p>See tips and tricks for CSS Grid Layouts...</p>
-          <button>Read</button>
+
+      <section class="feature">
+
+        <div class="blog-card">
+          <div class="photo">
+            <img src="img/macbook1.jpg" alt="current events">
+          </div>
+          <div class="desc">
+            <h3>HTML & CSS</h3>
+            <h4>Sept. 10, 2019</h4>
+            <span></span>
+            <p>Intro to basics of web design</p>
+            <br>
+            <a href="#" class="btn">read more ..</a>
+          </div>
         </div>
 
-        <div class="content-block-info">
-         <h3>View Flexbox Help</h3>
-          <p>See tips and tricks for Flexbox layouts...</p>
-          <button>Read</button>
+        <div class="blog-card">
+          <div class="photo">
+            <img src="img/macbook2.jpg" alt="current events">
+          </div>
+          <div class="desc">
+            <h3>JavaScript</h3>
+            <h4>Sept. 15, 2019</h4>
+            <span></span>
+            <p>Creating interactive pages</p>
+            <br>
+            <a href="#" class="btn">read more ..</a>
+          </div>
         </div>
 
-        <div class="content-block-info">
-         <h3>View Combo Help</h3>
-         <p>See tips and tricks for combined layouts...</p>
-         <button>Read</button>
+        <div class="blog-card">
+          <div class="photo">
+            <img src="img/event3.jpg" alt="current events">
+          </div>
+          <div class="desc">
+            <h3>Flexbox</h3>
+            <h4>Sept. 22, 2019</h4>
+            <span></span>
+            <p>How to use Flexbox layouts</p>
+            <br>
+            <a href="#" class="btn">read more ..</a>
+          </div>
         </div>
+
       </section>
-      <!--sidebar-->
-      <section class="sidebar">
-        <h3>recent posts</h3>
-        <ul>
-          <li> Post One </li>
-          <li> Post Two </li>
-          <li> Post Three </li>
-        </ul>
-      </section>
-      <footer>
-        <h3>Using Flexbox and Grid together layout</h3>
 
+      <footer class="footer">
+        <div class="social">
+          <nav>
+            <li>twitter ph</li>
+            <li>facebook ph</li>
+            <li> instagram ph</li>
+          </nav>
+        </div>
+        <div class="copy">
+          <p>&copy Jonathan Cochran 2019 <p>
+        </div>
+
+        <div class="quote">
+          <p> for new beginnings </p>
+        </div>
       </footer>
     </div>
   </body>

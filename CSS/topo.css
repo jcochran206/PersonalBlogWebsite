@@ -1,0 +1,58 @@
+/* general style rules for topograpy */
+@import url('https://fonts.googleapis.com/css?family=Lobster|Oswald|Roboto+Slab&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: "Lobster", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: "Roboto-Slab", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+p {
+  font-family: "Oswald", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  opacity: 1;
+  color: #ffffff;
+}
+
+a:hover{
+  color: #ff5722;
+}
+
+a.btn {
+  border-radius: 4px;
+  background-color: #0288d1;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+  margin: 10px 10px;
+  padding: 10px 10px;
+}
+
+a.btn:hover {
+  color: #ff5722;
+}
+
+
+
+nav {
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  padding: 10px;
+}
