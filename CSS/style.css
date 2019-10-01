@@ -89,7 +89,7 @@ header nav li {
   height: 100%;
   background-size: cover;
   z-index: -1;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('img/macbook1.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('img/design.jpg');
   background-color: #fdca40;
 }
 .hero h1 {

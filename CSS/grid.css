@@ -43,9 +43,9 @@ header nav{
   grid-column-start: 1;
   grid-column-end: 6;
   height: 400px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/event2.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/design.jpg');
   background-size:cover;
-
+  background-position: center;
 }
 
 .hero .hero-content {
@@ -146,4 +146,33 @@ footer .quote {
   grid-column-end: 6;
   padding: 0 20px;
   margin-right: 10px;
+}
+
+@media screen and (min-width: 600px) {
+
+  .feature {
+    grid-area: "main" ;
+    grid-column: 1 / 6;
+    padding: 1rem;
+    display: grid;
+    background-color: #fff;
+    grid-gap: 10px;
+    justify-self: center;
+  }
+
+  .blog-card {
+    display: grid;
+    background-color: #03a9f4;
+    width: 95%;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    justify-content: center;
+    grid-template-rows: max-content 200px 1fr;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 5px 10px #ff5722;
+  }
+
+
 }
