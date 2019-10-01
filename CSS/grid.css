@@ -161,7 +161,7 @@ footer .quote {
   }
 
   .blog-card {
-    display: grid;
+    display: flex;
     background-color: #03a9f4;
     width: 95%;
     grid-column-start: 2;
@@ -173,6 +173,10 @@ footer .quote {
     padding: 10px;
     box-shadow: 5px 10px #ff5722;
   }
-
+  img {
+    width: 40%;
+    height: 200px;
+    border-radius: 4px;
+  }
 
 }
