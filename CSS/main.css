@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif:400,400i,700,700i&display=swap');
+@import url('../css/grid.css');
+@import url('../css/queries.css');
+
+/* global styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font: normal 16px sans-serif;
+    font-family: 'Noto Serif', serif;
+    background-color: #bdbdbd;
+
+  }
+
+  .nav li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px 0 0;
+  }
+
+  .social-nav li {
+    color: #ffffff;
+    display: inline-block;
+    margin: 20px 20px 0 0;
+    list-style: none;
+  }
+
+  /* heading style */
+
+  .logo {
+    font-size: 50px;
+    color: #ffffff;
+  }
+
+  h1 {
+    font-family: 'Noto Serif', serif;
+    font-size: 30px;
+    color: #ffffff;
+    margin: 10px auto;
+  }
+
+  h2 {
+    font-family: sans-serif;
+    font-size: 25px;
+    color: #0288d1;
+    text-transform: uppercase;
+  }
+
+  h3 {
+    font-family: 'Noto Serif', serif;
+    font-size: 20px;
+  }
+
+  /* links styling */
+
+  a {
+      text-decoration: none;
+      opacity: 1;
+      color: #ffffff;
+    }
+
+  a:hover{
+    color: #ff5722;
+  }
+
+/* button */
+.btn {
+  background-color: #0288d1;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  font-style: oblique;
+  font-weight: bold;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+
+}
+
+.btn:hover {
+  background-color: #ff5722;
+}
+
+/* inner card style */
+.card-title{
+  background-color: #f3f3f3;
+  border-top: 4px solid #ff5722;
+}
+
+/* headline blog style */
+.headline {
+  border-bottom: 5px #ff5722 solid;
+  text-align: center;
+}
+
+/* about list style*/
+
+.list {
+  list-style: none;
+  list-style-position: inside;
+  line-height: normal;
+}
+
+.item h3 {
+  color: #0288d1;
+  text-transform: uppercase;
+  font-family: 'Noto Serif', serif;
+}
+
+.item {
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  font-variant: small-caps;
+}

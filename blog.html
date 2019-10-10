@@ -2,59 +2,60 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title> Jonathan Cochran | Web design </title>
-    <style media="screen">
-      @import url('css/topo.css');
-      @import url('css/blog.css');
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Jonathan Cochran | Web Developer Blog</title>
+    <meta name="description" content="Jonathan's Web Blog">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://kit.fontawesome.com/e0c76997cd.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <header>
-      <div class="logo">
-        <h1><a href="#">Bloggers Inc.</a></h1>
+    <div class="container-2">
+      <div class="header">
+        <div class="logo">
+          <span class="logo-icon"><i class="fab fa-blogger"></i></span>
+        </div>
+        <ul class="nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="blog.html">Post</a></li>
+        </ul>
       </div>
-      <nav>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#" class="active">Post</a></li>
-      </nav>
-    <section class="hero">
-      <div class="background-image"></div>
-      <div class="hero-content">
-        <h1 class="heading-pri">
-        <span class="hero-main">HTML & CSS</span>
-        <span class="hero-sub">Intro to web design</span>
-        </h1>
-      </div>
-    </section>
-  </header>
+      <div class="content">
+        <article class="blog">
+          <div class="blog-img">
+            <img src="img/dual.jpg" alt="two macbooks side by side with code on screen">
+          </div>
+          <div class="headline">
+            <h2>Preparing for your interview</h2>
+          </div>
+          <div class="blog-content">
+          <i class="fas fa-walking fa-2x"></i>
+          <h3> Here are some steps to help you prepare </h3>
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+        </article>
 
-    <section class="blog-feature">
-      <h2>HTML & CSS</h2>
-      <h3>date</h3>
-      <h4>Intro to Web design</h4>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      <h4>Learn thru web projects</h4>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      <h4>Conclusion</h4>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </section>
-
-    <footer class="footer">
-      <div class="social">
-        <nav>
-          <li>twitter ph</li>
-          <li>facebook ph</li>
-          <li> instagram ph</li>
-        </nav>
+        <article class="blog">
+          <div class="blog-img">
+            <img src="img/macbook1.jpg" alt="two macbooks side by side with code on screen">
+          </div>
+          <div class="headline">
+            <h2>HTML & CSS</h2>
+          </div>
+          <div class="blog-content">
+            <i class="far fa-newspaper fa-2x"></i>
+            <h3> Here are some steps to help you prepare </h3>
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+        </article>
       </div>
-      <div class="copy">
-        <p>&copy Jonathan Cochran 2019 <p>
+      <div class="footer">
+        <ul class="social-nav">
+        <li><i class="fab fa-twitter-square fa-2x"></i></li>
+        <li><i class="fab fa-facebook-square fa-2x"></i></li>
+        <li><i class="fab fa-instagram fa-2x"></i></li>
+        </ul>
       </div>
-
-      <div class="quote">
-        <p> for new beginnings </p>
-      </div>
-    </footer>
+    </div>
   </body>
 </html>
