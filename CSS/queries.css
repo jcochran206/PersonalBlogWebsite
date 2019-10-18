@@ -40,7 +40,7 @@
 
 }
 
-@media(min-width: 360px) {
+@media(min-width: 360px) and (max-width: 960px){
 
   .main {
     grid-area: "main" ;
@@ -51,7 +51,6 @@
     display: grid;
     background-color: #fff;
     grid-row-gap: 20px;
-
 
   }
 
